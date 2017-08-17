@@ -1,253 +1,285 @@
 <!DOCTYPE html>
 <html>
-  <head><title>About - Arterys</title>
-    <meta name="description" content="Arterys’ mission is to radically transform the world of medical imaging via high performance cloud computation for the benefit of both patients and clinicians by creating an automated and intelligent platform supporting diagnostic decision-making."></meta>
-      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
-      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-      <!--[if IE]> <script type="text/javascript" src="/scripts/html5shiv.min.js"></script> <![endif]-->
-      <script type="text/javascript" src="/static/scripts/jquery.min.js"></script>
-      <script type="text/javascript" src="/static/scripts/slick.min.js"></script>
-      <script type="text/javascript" src="/static/scripts/masonry.min.js"></script>
-      <script type="text/javascript" src="/static/scripts/TweenMax.min.js"></script>
-      <script type="text/javascript" src="/static/scripts/scrollmagic.min.js"></script>
-      <script type="text/javascript" src="/static/scripts/scrollmagic/plugins/animation.gsap.min.js"></script>
-      <script type="text/javascript" src="/static/scripts/scrollmagic/plugins/debug.addIndicators.min.js"></script>
-      <script type="text/javascript" src="/static/scripts/scripts.min.js?rel=c4e5e96603"></script>
-      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
-      <link rel="stylesheet" href="/static/css/style.min.css?rel=084321dc79">
-      <!--[if IE]> <link rel="stylesheet" type="text/css" href="/css/ie.min.css" /> <![endif]-->
-      <!--[if IE lt 9]> <link rel="stylesheet" type="text/css" href="/css/ie8.min.css" /> <![endif]-->
-      <script>
-       var style_tag = document.createElement("style");
-        document.head.appendChild(style_tag);
 
-	 var inject_styles = function (css) {
-	    while (style_tag.firstChild) {
-	         style_tag.removeChild(style_tag.firstChild);
-		    }
-		       style_tag.appendChild(document.createTextNode(css));
-		        };
+<head>
+    <meta charset="utf-8" /> 
+    <!-- block meta  -->
+    <title>日志 - Awesome Python Webapp</title>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="/static/css/uikit.min.css">
+    <link rel="stylesheet" href="/static/css/uikit.gradient.min.css">
+    <link rel="stylesheet" href="/static/css/awesome.css" />
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/md5.js"></script>
+    <script src="/static/js/uikit.min.js"></script>
+    <script src="/static/js/sticky.min.js"></script>
+    <script src="/static/js/vue.min.js"></script>
+    <style type="text/css">
+    .t-hero {
+        background: url("data:image/png;base64,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") no-repeat;
+        background-color: rgba(0, 0, 0, .7);
+        background-size: cover;
+        transform: translateZ(0);
+    }
 
-			 var $window = $(window);
-			  var resize = function () {
-			     var height = Math.max($window.height(), 945);
-			        inject_styles(".window-height {height: " + height + "px !important;}");
-				 };
-				  resize();
-				   $window.on('resize', resize);
+    .t-hero-enhanced {
+        background-image: url("http://www.transcademy.com/Content/h.images/hero.png");
+    }
+</style>
+    <!--<script src="/static/js/awesome.js"></script>-->
+    
 
-				   </script>
-				   <script type="text/javascript">
-				   	// Crazy Egg Heatmap Analytics
-						setTimeout(function(){var a=document.createElement("script");
-							var b=document.getElementsByTagName("script")[0];
-								a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0065/3067.js?"+Math.floor(new Date().getTime()/3600000);
-									a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-									</script></head>
-									  <body class='light-footer'>
+<script>
+</script>
 
-									      <div class='hamburger'><img id="mobile-menu" src="/static/icons/v2/Icons_Menu.png" /></div>
-									      <div class='header top' id="header">
-									        <div class='left'>
-										    <a class="arty-home" href="/">
-										          <?xml version="1.0" encoding="utf-8"?>
-											  <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-											  <svg fill="#ffffff" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-											  	 viewBox="-452 265 54 32" style="enable-background:new -452 265 54 32;" xml:space="preserve">
-												 <path d="M-398.7,269.7L-398.7,269.7L-398.7,269.7c-3-3-7-4.7-11.3-4.7s-8.3,1.7-11.3,4.7c-0.1,0.1-2.9,3-13.2,13.9
-												 	c-3.7,3.9-6.8,7.2-6.9,7.3c-1.1,1.1-2.6,1.8-4.2,1.8s-3.1-0.6-4.2-1.8l-1.4,1.4l0,0c0.1,0.1,0.3,0.2,0.4,0.4l0,0
-														c2.9,2.8,6.7,4.3,10.8,4.3c4.3,0,8.3-1.7,11.3-4.7c0.1-0.1,2.8-3,12.9-13.6c3.9-4.1,7.1-7.5,7.2-7.6c1.1-1.1,2.6-1.8,4.2-1.8
-															c1.4,0,2.7,0.5,3.8,1.3c0.2,0.1,0.3,0.3,0.5,0.4l0,0l0,0l0,0l0.7-0.7L-398.7,269.7L-398.7,269.7z M-440,292.3c0,0,0.3-0.3,7-7.3
-																c5.5-5.8,13-13.7,13.1-13.9c2.2-2.2,5-3.6,8.1-4c-1.4,0.6-2.7,1.4-3.8,2.6c0,0-1.6,1.7-9.5,10c-5.1,5.4-10.5,11-10.6,11.2
-																	c-1.7,1.7-3.9,2.7-6.3,2.9C-441.3,293.4-440.6,292.9-440,292.3z M-410,269.7c0,0-0.3,0.3-7.3,7.7c-5.7,6-12.7,13.4-12.8,13.6
-																		c-2.2,2.2-5,3.6-8,4c1.4-0.6,2.7-1.5,3.8-2.6c0,0,1.9-2,10.6-11.2c4.8-5,9.4-9.9,9.5-10c1.7-1.7,4-2.7,6.3-2.9
-																			C-408.7,268.6-409.4,269.1-410,269.7z"/>
-																			</svg>
-																			    </a>
-																			      </div>
-																			        <div class='right'>
-																				    <a class='btn desktop' href="https://arterys.com/app">Login</a>
-																				        <div class='menu'>
-																					      <a class="" href="/">Home</a>
-																					            <a class="" href="/cardiac-mri">Cardiac MRI</a>
-																						          <a class="active" href="/about">About us</a>
-																							        <a class="" href="/careers">Careers</a>
-																								      <a class="" href="/news">News</a>
-																								          </div>
-																									    </div>
-																									    </div>
 
-																									    <div class='page-container'>
-																									        <div class='section about-title dark image-bg title'>
-																										      <div class='image-content-wrapper'>
-																										              <div class='image-content logo'>
-																											                <div class='content'>
-																													            <h1>About Us</h1>
-																														                <p>
-																																              We are passionate about bringing intelligent technology to clinical practice for improved patient care.
-																																	                  </p>
-																																			            </div>
-																																				            </div>
-																																					          </div>
-																																						      </div>
-																																						          <div class='section founders light'>
-																																							        <div class='content'>
-																																								        <h1>The Arterys founding team</h1>
-																																									        <hr class="dark">
-																																										        <p>
-																																											          Made up of experts in medical image analysis, data visualization and software on a mission to unlock the potential of medical imaging.
-																																												          </p>
-																																													          <div class="founders-grid">
-																																														              <div class="grid-tile" id="founder-fabien">
-																																															                    <h1>Fabien Beckers</h1>
-																																																	                  <h2>CEO</h2>
-																																																			                <hr class="mini light">
-																																																					              <ul>
-																																																						                      <li>PhD Cambridge University</li>
-																																																								                      <li>Master of Business Stanford Graduate School of Business</li>
-																																																										                      <li>7 years as CEO of tech companies</li>
-																																																												                    </ul>
-																																																														                </div>
+</head>
 
-																																																																            <div class="grid-tile" id="founder-john">
-																																																																	                  <h1>John Axerio-Cilies</h1>
-																																																																			                <h2>CTO</h2>
-																																																																					              <hr class="mini light">
-																																																																						                    <ul>
-																																																																								                    <li>PhD in Engineering Stanford University</li>
-																																																																										                    <li>Stanford Graduate School of Business PRIE program</li>
-																																																																												                  </ul>
-																																																																														              </div>
+<body>
+    <!--
+    <nav class="uk-navbar uk-navbar-attached uk-margin-bottom">
+        <div class="uk-container uk-container-center">
+            <a href="/" class="uk-navbar-brand">Awesome</a>
+            <ul class="uk-navbar-nav">
+                <li data-url="blogs"><a href="/"><i class="uk-icon-home"></i> 日志</a></li>
+                <li><a target="_blank" href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000"><i class="uk-icon-book"></i> 教程</a></li>
+                <li><a target="_blank" href="https://github.com/michaelliao/awesome-python-webapp"><i class="uk-icon-code"></i> 源码</a></li>
+            </ul>
+            <div class="uk-navbar-flip">
+                <ul class="uk-navbar-nav">
+                
+                    <li><a href="/signin"><i class="uk-icon-sign-in"></i> 登陆</a></li>
+                    <li><a href="/register"><i class="uk-icon-edit"></i> 注册</a></li>
+                
+                </ul>
+            </div>
+        </div>
+    </nav>-->
+    <!--style="background-image: url('http://www.transcademy.com/Content/h.images/hero.png')"-->
+<div class="t-navbar t-navbar-transparent">
+    <nav class="uk-navbar uk-contrast">
+        <div class="uk-container uk-container-center">
+            <a href="/" class="uk-navbar-brand uk-hidden-small">
+                <img src="/static/images/logo.svg" alt="transcademy" class="uk-responsive-height">
+            </a>
+            <div class="uk-navbar-flip uk-hidden-small">
+                <ul class="uk-navbar-nav">
+                    <li><a  href="/">Home</a></li>
+                    <li><a  href="/blog/posts">Blog</a></li>
+                    
+                                            <li>
+                            <div class="uk-navbar-content"><a href="#" class="uk-button uk-button-primary uk-disabled">Sign up</a></div>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
 
-																																																																															                  <div class="grid-tile" id="founder-albert">
-																																																																																	                <h1>Albert Hsiao</h1>
-																																																																																			              <h2>MD/PhD</h2>
-																																																																																				                    <hr class="mini light">
-																																																																																						                  <ul>
-																																																																																								                  <li>Associate Director of Cardiovascular Research CTIPM</li>
-																																																																																										                  <li>Assistant Professor of Radiology UC San Diego</li>
-																																																																																												                </ul>
-																																																																																														            </div>
 
-																																																																																															                <div class="grid-tile" id="founder-shreyas">
-																																																																																																	              <h1>Shreyas Vasanawala</h1>
-																																																																																																		                    <h2>MD/PhD</h2>
-																																																																																																				                  <hr class="mini light">
-																																																																																																						                <ul>
-																																																																																																								                <li>Professor of Radiology</li>
-																																																																																																										                <li>Chief of Body MRI</li>
-																																																																																																												                <li>Co-Director of MRI at Stanford University</li>
-																																																																																																														              </ul>
-																																																																																																															                  </div>
-																																																																																																																	            </div>
-																																																																																																																		          </div>
-																																																																																																																			      </div>
+    <div class="uk-block uk-block-large uk-cover-background uk-flex uk-flex-middle uk-height-viewport t-hero t-hero-enhanced">
+        <div class="uk-container uk-container-center">
+            <section class="uk-grid uk-grid-match uk-contrast">
+                <div class="uk-width-medium-1-1">
+                    <div class="uk-panel uk-text-center">
+                        <h1 class="uk-heading-large uk-margin-large-bottom uk-margin-large-top">
+                            Connecting Parents, Refining Students,<br class="uk-hidden-small"> Promoting Success
+                        </h1>
+                        <h2 class="uk-margin-large-bottom uk-hidden-small">
+                            The mind of a child is a tabular rasa. You choose to write<br class="uk-hidden-small">whatever
+                            you want on it. - "John Locke"
+                        </h2>
+                        <!--grid to 3 places-->
+                        <div data-uk-grid-margin="" class="uk-grid uk-width-medium-2-3 uk-container-center">
+                            <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-padding-remove uk-row-first">
+                                <a href="#parents" data-uk-smooth-scroll="" class="uk-button t-button-1 uk-button-large">Parents</a>
+                            </div>
+                            <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-padding-remove">
+                                <a href="#teachers" data-uk-smooth-scroll="" class="uk-button uk-button-large t-button-2 uk-grid-width-small-1-3">Teachers</a>
+                            </div>
+                            <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-padding-remove">
+                                <a href="#schools" data-uk-smooth-scroll="" class="uk-button uk-button-large t-button-3 uk-grid-width-small-1-3">Schools</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 
-																																																																																																																			          <div class='section partnerships dark'>
-																																																																																																																				        <div class='image-content-wrapper'>
-																																																																																																																					        <div class='image-content'>
-																																																																																																																						          <div class='content'>
-																																																																																																																							              <h1>Our partnerships</h1>
-																																																																																																																								                  <hr class="light">
-																																																																																																																										              <p>
-																																																																																																																											                    Our vendor partnerships provide physicians with products that seamlessly integrate into their clinical workflow.
-																																																																																																																													                </p>
-																																																																																																																															          </div>
-																																																																																																																																            <div class="partnership-grid">
-																																																																																																																																	                <div class="partnership-box">
-																																																																																																																																			              <svg xmlns="http://www.w3.org/2000/svg" width="320" height="77" viewBox="0 0 320 77">
-																																																																																																																																				          <g fill="none" fill-rule="evenodd">
-																																																																																																																																					          <path fill="#FFF" d="M20.407 1.647a21.892 21.892 0 0 1 12.54 2.863 22.056 22.056 0 0 1 7.506 7.115c2.343 3.578 3.582 7.86 3.546 12.136-.028 4.469-1.45 8.922-4.05 12.56A22.004 22.004 0 0 1 29.153 44.4c-3.84 1.329-8.053 1.538-12.018.649-4.157-.927-8.019-3.113-10.973-6.18C3.03 35.624.912 31.404.264 26.938c-.637-3.978-.11-8.128 1.444-11.84a22.135 22.135 0 0 1 6.733-8.823 21.916 21.916 0 0 1 11.966-4.628zm-.005 1.056a20.774 20.774 0 0 0-7.448 1.99C9.204 6.5 5.995 9.44 3.914 13.05.815 18.26.216 24.85 2.247 30.553c1.304 3.708 3.683 7.017 6.76 9.458 3.575 2.836 8.097 4.469 12.664 4.508a20.581 20.581 0 0 0 9.662-2.185 21.008 21.008 0 0 0 9.016-8.654c2.036-3.681 2.93-7.993 2.476-12.176-.602-6.79-4.844-13.081-10.829-16.307a20.713 20.713 0 0 0-11.594-2.494zM16.7 4.693c3.656-1.021 7.613-.977 11.23.19.156.049.277.165.4.269-.597-.045-1.144-.314-1.73-.415-1.479-.295-3.01-.442-4.509-.218-.939.169-1.924.532-2.52 1.316-.448.583-.496 1.497.024 2.05.577.61 1.601.577 2.241.084.755-.554 1.487-1.215 2.43-1.421 1.916-.475 3.925-.093 5.781.458 2.23.608 4.335 1.707 6.045 3.267 2.85 2.517 4.562 6.13 5.212 9.836.566 3.162.397 6.464-.585 9.529a.307.307 0 0 1-.275.249c.57-2.086.992-4.3.566-6.453-.223-1.04-.735-2.212-1.83-2.567-.837-.297-1.857.279-1.924 1.19-.16.974.636 1.676 1.132 2.406 1.065 1.529.933 3.512.673 5.266-.49 2.374-1.282 4.737-2.72 6.716-2.22 3.187-5.757 5.289-9.495 6.189-3.248.775-6.689.77-9.932-.03-.428-.126-.912-.183-1.243-.51.618-.002 1.191.266 1.796.363 1.653.3 3.38.486 5.031.072.748-.206 1.507-.561 1.977-1.203.436-.597.426-1.513-.11-2.05-.463-.488-1.235-.588-1.829-.281-.704.383-1.243 1.01-1.962 1.37-1.45.704-3.133.6-4.68.34-2.568-.504-5.103-1.434-7.17-3.071-2.748-2.111-4.65-5.191-5.583-8.506-.986-3.472-.993-7.202-.093-10.692.156-.361.095-.932.508-1.103-.527 1.994-.943 4.084-.622 6.15.162.917.484 1.889 1.243 2.485.527.435 1.35.594 1.932.177.62-.363.825-1.225.537-1.862-.303-.717-.919-1.24-1.27-1.931-.763-1.392-.679-3.054-.477-4.578.425-2.441 1.253-4.853 2.693-6.89C9.73 7.787 13.095 5.666 16.7 4.693zm.494 7.412c-1.19.642-2.01 1.79-2.61 2.973-.637 1.216-.9 2.575-1.025 3.929-.587-.08-1.06-.535-1.196-1.107-.274-.836.016-1.693.165-2.52.066-.238-.117-.434-.213-.63-.5-.031-1.01.215-1.238.673-.68 1.273-.62 2.989.321 4.118.54.684 1.392 1.022 2.238 1.11.287.882.845 1.74 1.742 2.086 1.1.443 2.305-.021 3.258-.598-.033.354-.052.716-.176 1.054-.335.27-.744.428-1.118.637-1.84.97-3.718 1.948-5.265 3.36-1.127 1.059-2.014 2.467-2.185 4.027-.082 1.225.406 2.57 1.48 3.246 1.123.743 2.602.7 3.825.24 1.543-.588 2.693-1.896 3.453-3.324 1.125-2.022 1.317-4.378 1.482-6.64.044-.264-.012-.64.3-.754a54.815 54.815 0 0 0 5.33-3.395c.202.249.401.498.592.755-.879.524-1.756 1.089-2.419 1.883-2.48 2.713-2.522 7.37.08 10.019 1.328 1.402 3.371 2.002 5.263 1.722 1.74-.247 3.322-1.341 4.2-2.858 1.17-1.93.978-4.631-.544-6.314-1.422-1.572-4.19-1.541-5.582.054-1.095 1.152-1.13 3.187.011 4.314.463.462 1.27.74 1.851.343.374-.27.338-.847.037-1.16-.392-.471-.854-1.018-.737-1.677.117-.858 1.076-1.383 1.883-1.201.691.108 1.243.648 1.5 1.28.604 1.44.261 3.225-.825 4.346-1.15 1.2-3.154 1.389-4.544.5-1.232-.76-1.935-2.168-2.152-3.565-.227-1.684.096-3.502 1.141-4.875.673-.87 1.611-1.584 2.691-1.842.907.069 1.847.233 2.735-.057.418-.142.824-.61.611-1.068-.229-.47-.795-.61-1.265-.708-.703-.14-1.403.048-2.09.18-.48-.165-.734-.67-.912-1.113 1.334-.997 2.654-2.081 3.56-3.5.527-.852.87-1.898.622-2.9-.195-.663-.739-1.227-1.433-1.353-1.156-.291-2.34.292-3.125 1.12-1.263 1.372-1.905 3.272-1.846 5.125-.017.383.132.785.022 1.153-.946.763-2.004 1.377-3.024 2.037-.586.34-1.144.732-1.767 1.007.011-.59.042-1.188.21-1.757.448-.613 1.012-1.146 1.368-1.827.261-.47.507-1.064.236-1.582-.249-.384-.8-.347-1.16-.155-.769.385-1.19 1.199-1.5 1.962-.212.488-.236 1.093-.692 1.438-.632.554-1.395 1.109-2.275 1.077-.502.003-.838-.471-.944-.914 1.391-.541 2.551-1.548 3.492-2.686.872-1.12 1.564-2.441 1.681-3.875.065-.722-.192-1.54-.85-1.917-.826-.45-1.859-.322-2.668.104zm-3.043 15.707a18.4 18.4 0 0 1 4.09-2.62 16.926 16.926 0 0 1-1.153 4.76c-.528 1.218-1.312 2.476-2.608 2.976-.674.253-1.55.41-2.133-.121-.552-.49-.515-1.319-.354-1.975.335-1.226 1.236-2.19 2.158-3.02zm14.233-13.965c.286-.33.778-.66 1.214-.435.479.283.228.918.04 1.306-.658 1.213-1.634 2.237-2.692 3.11a6.076 6.076 0 0 1 1.438-3.981zm-10.393-.418c.323-.245.856-.14 1.01.254.117.487-.062.98-.269 1.414-.59 1.203-1.469 2.245-2.474 3.12a3.111 3.111 0 0 1-.845.54c.041-1.069.408-2.099.862-3.058.424-.85.913-1.724 1.716-2.27zM303.72 66.386a3.748 3.748 0 0 1 1.94 5.01 3.763 3.763 0 0 1-3.03 2.17c-.12.01-.25.02-.38.02s-.26-.01-.38-.02a3.707 3.707 0 0 1-2.86-1.86l.14-.08.72-.42c.42.73 1.16 1.25 2.04 1.36h.02c.04.01.07.01.11.01h.05c.05.01.1.01.16.01s.11 0 .16-.01h.05c.04 0 .07 0 .11-.01h.03a2.754 2.754 0 0 0 .73-5.26s-2.31-.98-2.33-1a2.963 2.963 0 0 1-1.75-2.72c0-.46.1-.89.29-1.28a2.987 2.987 0 0 1 2.71-1.72c1.11 0 2.08.6 2.6 1.5l-.15.08-.72.42c-.31-.54-.87-.92-1.52-.99-.07-.01-.14-.01-.21-.01-.07 0-.14 0-.21.01-1 .11-1.79.96-1.79 1.99 0 .83.5 1.54 1.22 1.84.06.02 2.18.93 2.25.96zm-13.868-5.8H291l-4 7.11v5.89h-1v-5.89l-4-7.11h1.147l3.353 5.96 3.353-5.96zM274 64.086a3.496 3.496 0 0 1-3.433 3.493L274 73.586h-1.151l-3.429-6H267v6h-1v-13h4.5a3.5 3.5 0 0 1 3.5 3.5zm-3.5 2.5c1.379 0 2.5-1.121 2.5-2.5 0-1.38-1.121-2.5-2.5-2.5H267v5h3.5zm-19.5-6h7v1h-6v5h6v1h-6v5h6v1h-7v-13zm-13 0h5v1h-4v12h-1v-12h-4v-1h4zm-12 3.5a3.496 3.496 0 0 1-3.433 3.493L226 73.586h-1.151l-3.429-6H219v6h-1v-13h4.5a3.5 3.5 0 0 1 3.5 3.5zm-3.5 2.5c1.379 0 2.5-1.121 2.5-2.5 0-1.38-1.121-2.5-2.5-2.5H219v5h3.5zm-24.5 7l6-13 6 13h-1.102L207 69.473v.113h-6v-.113l-1.899 4.113h-1.1zm3.41-5h5.181l-2.59-5.613-2.592 5.613zM317.792 63.374c-.028-.608-.062-1.342-.056-1.978h-.021c-.153.574-.35 1.209-.559 1.803l-.685 2.041h-.663l-.629-2.012a23.243 23.243 0 0 1-.476-1.832h-.014a96.96 96.96 0 0 1-.084 2.006l-.105 1.894h-.804l.315-4.71h1.133l.615 1.893c.167.552.314 1.112.432 1.636h.022c.125-.511.286-1.091.468-1.642l.65-1.887h1.118l.273 4.71h-.839l-.091-1.922zm-6.727-2.068h-1.342v-.72h3.558v.72h-1.358v3.99h-.858v-3.99zm-123.051 6.413l.575 3.13c.132.66.204 1.092.264 1.523h.024c.157-.372.324-.78.624-1.415l1.475-3.238h1.056l-2.171 4.413c-.624 1.26-1.211 2.279-2.003 3.047-.648.659-1.356.936-1.692 1.007l-.24-.852c.253-.095.672-.251 1.068-.563.384-.3.804-.768 1.116-1.331a.409.409 0 0 0 .036-.264l-1.163-5.457h1.03zm-4.921-2.71l-.768 3.765h.025c.515-.78 1.258-1.187 2.038-1.187 1.271 0 1.751 1.055 1.751 2.087 0 1.774-1.284 3.981-3.61 3.981-1.019 0-1.787-.42-1.787-1.499 0-.276.048-.624.096-.899l1.26-6.249h.995zm-1.259 6.271a2.52 2.52 0 0 0-.072.732c0 .551.311.864.935.864 1.499 0 2.41-1.787 2.41-3.07 0-.72-.311-1.392-1.103-1.392-.863 0-1.751.887-2.038 2.255l-.132.611zm-3.615-6.272l-1.271 6.68a14.404 14.404 0 0 0-.252 1.836h-.912l.156-1.152h-.024c-.528.827-1.26 1.283-2.087 1.283-1.128 0-1.74-.923-1.74-2.11 0-2.063 1.536-3.958 3.587-3.958.372 0 .779.084 1.03.204l.517-2.783h.996zm-1.667 3.622c-.204-.132-.54-.24-.96-.24-1.391 0-2.471 1.475-2.471 3.023 0 .696.24 1.427 1.092 1.427.768 0 1.69-.876 1.943-2.183l.396-2.027zm-5.76 4.557c-.431.252-1.14.456-1.918.456-1.536 0-2.207-1.044-2.207-2.327 0-1.75 1.294-3.729 3.166-3.729 1.102 0 1.703.66 1.703 1.487 0 1.522-1.715 1.931-3.863 1.895-.048.251-.01.792.12 1.103.228.516.696.78 1.296.78.684 0 1.2-.216 1.56-.408l.143.743zm-1.103-4.82c-.947 0-1.655.923-1.895 1.834 1.558.012 2.782-.19 2.782-1.09 0-.48-.36-.745-.887-.745zm-6.827 5.156l.707-3.742c.145-.755.24-1.523.3-2.063h.876a70.51 70.51 0 0 1-.156 1.26h.036c.372-.792.996-1.392 1.775-1.392.084 0 .204.012.275.024l-.19.983a1.523 1.523 0 0 0-.265-.023c-.864 0-1.63 1.043-1.883 2.398l-.48 2.555h-.995zm-1.25-.336c-.431.252-1.14.456-1.918.456-1.536 0-2.207-1.044-2.207-2.327 0-1.75 1.295-3.729 3.167-3.729 1.102 0 1.702.66 1.702 1.487 0 1.522-1.715 1.931-3.862 1.895-.048.251-.011.792.12 1.103.228.516.696.78 1.295.78.684 0 1.2-.216 1.56-.408l.144.743zm-1.103-4.82c-.947 0-1.655.923-1.895 1.834 1.559.012 2.783-.19 2.783-1.09 0-.48-.36-.745-.888-.745zm-10.091-.648l.204 3.262c.048.719.036 1.092.025 1.559h.035c.132-.372.348-.876.635-1.451l1.728-3.37h.863l.36 3.31c.06.635.108 1.127.096 1.51h.024c.156-.466.324-.91.551-1.462l1.572-3.358h1.008l-2.867 5.805h-.923l-.384-3.155a13.371 13.371 0 0 1-.084-1.535h-.025c-.239.552-.407.995-.671 1.51l-1.668 3.18h-.922l-.54-5.805h.983zm-1.995 2.29c0 1.786-1.27 3.646-3.214 3.646-1.451 0-2.266-1.079-2.266-2.387 0-1.907 1.33-3.682 3.214-3.682 1.57 0 2.266 1.188 2.266 2.423zm-4.45 1.223c0 .948.517 1.632 1.368 1.632 1.176 0 2.063-1.512 2.063-2.867 0-.67-.312-1.619-1.355-1.619-1.248 0-2.087 1.523-2.075 2.854zm-5.412-5.673a8.103 8.103 0 0 1 1.751-.179c.781 0 1.524.192 1.98.624.384.36.588.827.588 1.462 0 .912-.444 1.667-.972 2.111-.624.528-1.535.767-2.446.767-.3 0-.576-.023-.828-.059l-.612 3.238h-.983l1.522-7.964zm.229 3.886c.288.061.516.084.804.084 1.367 0 2.278-.852 2.278-1.99 0-.96-.684-1.344-1.607-1.344-.396 0-.696.036-.875.084l-.6 3.166zM308.4 45.586c-1.582 0-3.022-.166-4.32-.498a15.404 15.404 0 0 1-3.825-1.567c-1.25-.713-2-1.246-2.255-1.597a1.955 1.955 0 0 1-.38-1.172c0-.488.17-.923.512-1.304.341-.381.728-.571 1.157-.571.488 0 .966.186 1.435.557.997.76 2.194 1.39 3.59 1.889 1.397.498 2.758.747 4.087.747 2.245 0 3.998-.46 5.258-1.377 1.26-.918 1.89-2.158 1.89-3.72 0-1.426-.498-2.52-1.494-3.282-.997-.761-2.334-1.328-4.014-1.7-2.734-.565-4.712-1.034-5.933-1.405-1.22-.371-2.27-.883-3.149-1.538a7.094 7.094 0 0 1-2.094-2.49c-.519-1.006-.778-2.281-.778-3.824 0-2.636 1.022-4.785 3.063-6.445 2.04-1.66 4.644-2.49 7.808-2.49 2.323 0 4.491.464 6.503 1.39 2.012.929 3.017 1.862 3.017 2.799 0 .469-.18.928-.541 1.377-.362.45-.757.674-1.187.674-.41 0-.889-.195-1.435-.586-2.051-1.406-4.19-2.11-6.416-2.11-2.286 0-4.038.484-5.26 1.45-1.22.968-1.83 2.203-1.83 3.707 0 1.152.302 2.095.907 2.827.606.733 1.407 1.289 2.404 1.67.995.38 2.801.855 5.42 1.42 3.475.743 5.8 1.778 6.971 3.106 1.172 1.329 1.758 3.057 1.758 5.186 0 2.539-.971 4.654-2.915 6.343-1.942 1.689-4.594 2.534-7.953 2.534zm-32.607-17.432c2.734-1.953 5.205-4.014 7.412-6.182a48.836 48.836 0 0 0 5.83-6.855c.469-.645.967-.967 1.494-.967.547 0 1.006.166 1.377.498.371.333.557.693.557 1.084 0 .371-.127.787-.381 1.245-.254.459-1.064 1.538-2.432 3.238-1.367 1.699-3.73 4.043-7.089 7.031a49.33 49.33 0 0 1 3.955 4.072 64.135 64.135 0 0 1 3.896 4.981c2.559 3.613 3.838 6.015 3.838 7.207 0 .41-.181.8-.542 1.171-.361.372-.815.557-1.362.557-.449 0-.791-.113-1.026-.337-.234-.223-.459-.532-.673-.923-1.583-3.007-3.291-5.722-5.127-8.144-1.836-2.422-3.799-4.541-5.889-6.358-1.914 1.426-3.193 2.344-3.838 2.754v11.045c0 1.27-.625 1.904-1.875 1.904-1.23 0-1.846-.634-1.846-1.904V1.845c0-1.23.616-1.845 1.846-1.845 1.25 0 1.875.615 1.875 1.845v26.309zm-20.45-10.049c.782-1.425 1.783-2.5 3.004-3.223 1.22-.722 2.67-1.084 4.35-1.084 1.465 0 2.554.201 3.267.601.713.4 1.069.904 1.069 1.51 0 .507-.112.951-.336 1.332-.225.381-.552.571-.982.571-.254 0-.557-.059-.908-.176a7.668 7.668 0 0 0-2.168-.293c-2.207 0-3.975.782-5.303 2.344-1.328 1.563-1.992 3.623-1.992 6.182V43.33c0 1.23-.625 1.845-1.875 1.845-1.23 0-1.846-.615-1.846-1.845V16.025c0-1.21.616-1.816 1.846-1.816 1.25 0 1.875.605 1.875 1.816v2.08zm-24.316 27.48c-3.926 0-7.139-1.43-9.639-4.292-2.5-2.86-3.75-6.723-3.75-11.587 0-5.058 1.25-8.974 3.75-11.748 2.5-2.773 5.713-4.16 9.64-4.16 3.964 0 7.196 1.406 9.696 4.22 2.5 2.811 3.75 6.708 3.75 11.688 0 4.844-1.255 8.701-3.764 11.573-2.51 2.871-5.738 4.306-9.683 4.306zm0-28.242c-2.734 0-5.029 1.025-6.885 3.076-1.855 2.051-2.783 5.147-2.783 9.287 0 4.102.972 7.188 2.915 9.258 1.943 2.07 4.194 3.106 6.753 3.106 2.578 0 4.844-1.036 6.797-3.106 1.953-2.07 2.93-5.156 2.93-9.258 0-4.062-.914-7.138-2.74-9.228s-4.155-3.135-6.987-3.135zm-42.773-4.335c-1.465 6.367-2.998 11.777-4.6 16.23-1.601 4.453-3.071 8.096-4.409 10.928-1.338 2.832-2.163 4.375-2.475 4.629-.313.253-.743.38-1.289.38-.508 0-.894-.106-1.158-.322-.263-.215-.805-1.22-1.626-3.017-1.347-2.97-2.695-6.523-4.043-10.664a124.852 124.852 0 0 1-1.962-6.841c-.645-2.49-1.27-5.18-1.875-8.072C163.606 10.48 163 7.002 163 5.83c0-.566.2-1.02.601-1.361.4-.341.942-.514 1.626-.514.976 0 1.513.498 1.611 1.494.547 4.162 1.592 9.556 3.135 16.188 1.543 6.631 3.476 12.68 5.801 18.149 2.207-4.785 4.209-10.04 6.005-15.761 1.797-5.724 3.379-11.915 4.746-18.576.215-.996.87-1.494 1.963-1.494 1.036 0 1.641.518 1.817 1.554.527 3.593 1.655 8.892 3.384 15.893 1.728 7.003 3.715 13.13 5.961 18.384 2.11-4.55 4.024-9.682 5.743-15.395 1.718-5.713 3.242-12.008 4.57-18.883.195-1.034.781-1.552 1.758-1.552 1.406 0 2.109.537 2.109 1.611 0 .469-.405 2.545-1.216 6.225-.81 3.682-1.997 8.076-3.559 13.184-1.563 5.108-3.174 9.57-4.834 13.389-1.66 3.82-2.696 5.909-3.106 6.27-.41.361-.859.541-1.347.541-.43 0-.762-.054-.996-.16a1.64 1.64 0 0 1-.601-.47c-.166-.205-.732-1.387-1.699-3.544-.967-2.157-2.002-4.858-3.106-8.1a127.198 127.198 0 0 1-2.871-9.655 168.53 168.53 0 0 1-2.241-10.238z"/>
-																																																																																																																																						          <path fill="#85D1E0" d="M147.63 45.586c-2.812 0-5.346-.532-7.602-1.597-2.255-1.064-3.383-2.29-3.383-3.676 0-.645.244-1.264.732-1.861.488-.595 1.045-.893 1.67-.893.508 0 1.162.283 1.963.849 2.187 1.426 4.433 2.139 6.738 2.139 1.738 0 3.11-.347 4.116-1.04 1.006-.692 1.509-1.665 1.509-2.915 0-1.016-.42-1.831-1.26-2.446-.84-.616-2.441-1.197-4.804-1.744-4.082-.918-6.822-2.124-8.218-3.618-1.397-1.494-2.095-3.364-2.095-5.61 0-2.832 1.055-5.102 3.164-6.812 2.11-1.71 4.834-2.563 8.174-2.563 2.617 0 4.932.532 6.943 1.597 2.012 1.065 3.018 2.172 3.018 3.325 0 .722-.25 1.362-.747 1.919-.498.556-1.07.835-1.714.835-.586 0-1.308-.274-2.168-.821-1.758-1.211-3.652-1.816-5.683-1.816-1.7 0-3.038.38-4.014 1.143-.977.76-1.465 1.68-1.465 2.753 0 1.29.488 2.266 1.465 2.93.976.664 2.93 1.309 5.859 1.934 3.574.82 5.982 1.933 7.222 3.34 1.24 1.406 1.86 3.193 1.86 5.36 0 2.696-1.045 4.919-3.134 6.666-2.09 1.748-4.805 2.622-8.145 2.622zm-29.53 0c-4.102 0-7.447-1.455-10.035-4.365s-3.882-6.748-3.882-11.514c0-4.902 1.285-8.78 3.853-11.631 2.568-2.851 5.923-4.277 10.063-4.277 4.24 0 7.627 1.45 10.166 4.35 2.54 2.9 3.81 6.753 3.81 11.558s-1.295 8.652-3.883 11.543c-2.588 2.89-5.952 4.336-10.093 4.336zm.058-26.748c-2.637 0-4.707.948-6.21 2.842-1.505 1.894-2.257 4.57-2.257 8.027 0 3.223.757 5.835 2.271 7.837 1.513 2.003 3.56 3.003 6.137 3.003 2.637 0 4.707-.996 6.211-2.988 1.504-1.992 2.256-4.61 2.256-7.852 0-3.38-.742-6.035-2.226-7.97-1.485-1.932-3.545-2.9-6.182-2.9zM94.838 8.29c-.84 0-1.582-.312-2.226-.938-.645-.625-.967-1.396-.967-2.314 0-.879.317-1.64.952-2.285.635-.645 1.382-.967 2.24-.967.88 0 1.637.327 2.272.981.634.655.952 1.411.952 2.271 0 .898-.323 1.665-.967 2.3-.645.634-1.397.952-2.256.952zm2.754 34.658c0 1.602-.937 2.402-2.813 2.402-1.777 0-2.666-.8-2.666-2.402V16.377c0-1.563.909-2.344 2.725-2.344 1.836 0 2.754.781 2.754 2.344V42.95zM70.17 38.525c4.414-9.082 8.037-19.882 10.869-32.402.352-1.563 1.084-2.344 2.197-2.344 2.247 0 3.37.743 3.37 2.226 0 1.934-1.055 6.27-3.165 13.008-2.11 6.74-4.317 12.574-6.621 17.505-2.304 4.933-3.76 7.637-4.365 8.115-.605.48-1.367.718-2.285.718-1.074 0-1.88-.22-2.417-.659-.538-.439-1.783-2.89-3.735-7.354-1.953-4.462-3.897-10.219-5.83-17.27-1.934-7.05-2.901-11.699-2.901-13.945 0-1.563 1.143-2.344 3.428-2.344 1.172 0 1.885.781 2.139 2.344 2.187 12.304 5.292 23.105 9.316 32.402z"/>
-																																																																																																																																							      </g>
-																																																																																																																																							      </svg>
-																																																																																																																																							                  </div>
-																																																																																																																																									              <div class="partnership-box">
-																																																																																																																																										                    <svg xmlns="http://www.w3.org/2000/svg" width="227" height="35" viewBox="0 0 227 35">
-																																																																																																																																												        <path fill="#FFF" fill-rule="evenodd" d="M220.959 15.964c4.978 2.05 7.414 9.842 2.05 15.815-4.295 4.782-18.937 3.22-22.94 1.756v-6.54c19.426 5.076 17.356-2.351 13.96-3.808-4.1-1.756-7.323-2.927-9.664-4.197-5.37-3.22-7.03-12.885 0-16.79 7.029-3.904 16.4-1.659 19.816-.487v6.344c-16.4-4.978-16.314 1.742-13.471 3.027 3.026 1.366 7.418 3.612 10.249 4.88zM187.139.638h7.028v33.384h-10.835l-12.594-20.597v20.597h-7.027V.638h10.931l12.496 20.5V.637zm-55.424 0h25.771v6.638h-15.814v6.833h13.86v6.442h-13.86v6.833h15.814v6.638h-25.771V.638zm-19.636 0h11.811v33.384h-9.956V13.621l-9.47 20.401h-6.54L89.14 14.11v19.913h-8.005V.638h12.983l8.786 19.815L112.08.638zm-62.187 0h25.772v6.638H59.849v6.833h13.862v6.442H59.85v6.833h15.815v6.638H49.892V.638zM31.998 34.023V.638h9.956v33.385h-9.956zM21.264 15.964c4.979 2.05 7.413 9.842 2.05 15.815-4.294 4.782-18.938 3.22-22.94 1.756v-6.54c19.426 5.076 17.356-2.351 13.96-3.808-4.1-1.756-7.32-2.927-9.664-4.197C-.7 15.77-2.36 6.105 4.67 2.2 11.698-1.704 21.069.54 24.486 1.713v6.344C8.086 3.08 8.172 9.8 11.016 11.084c3.024 1.366 7.418 3.612 10.248 4.88z"/>
-																																																																																																																																													</svg>
-																																																																																																																																													            </div>
-																																																																																																																																														              </div>
-																																																																																																																																															              </div>
-																																																																																																																																																            </div>
-																																																																																																																																																	        </div>
+    <div class="uk-container uk-container-center">
+        <div class="uk-grid">
+            <!-- content -->
+            
 
-																																																																																																																																																		    <div class='section contact-us dark'>
-																																																																																																																																																		          <div class='image-content-wrapper'>
-																																																																																																																																																			          <div class='image-content'>
-																																																																																																																																																				            <div class='content'>
-																																																																																																																																																					                <a name="contact-us"></a>
-																																																																																																																																																							            <h1>Contact us</h1>
-																																																																																																																																																								                <hr class="light">
-																																																																																																																																																										            <p>
-																																																																																																																																																											                  Please send an email if you would like to learn more about our company.
-																																																																																																																																																													              </p>
-																																																																																																																																																														                </div>
-																																																																																																																																																																        </div>
-																																																																																																																																																																	        <div class="contact-grid">
-																																																																																																																																																																		          <div class="contact-box" id="usa">
-																																																																																																																																																																			              <img src="/static/images/v2/Contact_USA.jpg" />
-																																																																																																																																																																				                  <div class="contact-content">
-																																																																																																																																																																						                <h1>USA</h1>
-																																																																																																																																																																								              <hr class="mini light">
-																																																																																																																																																																									                    <p><a href="mailto:info@arterys.com">info@arterys.com</a> <br/><a href="tel:+16503197230">+1 (650) 319-7230</a></p>
-																																																																																																																																																																											                  <p>51 Federal Street <br/> San Francisco, CA <br/>94107, USA</p>
-																																																																																																																																																																													              </div>
-																																																																																																																																																																														                </div>
-																																																																																																																																																																																          <div class="contact-box" id="canada">
-																																																																																																																																																																																	              <img src="/static/images/v2/Contact_Canada.jpg" />
-																																																																																																																																																																																		                  <div class="contact-content">
-																																																																																																																																																																																				                <h1>Canada</h1>
-																																																																																																																																																																																						              <hr class="mini light">
-																																																																																																																																																																																							                    <p><a href="mailto:info@arterys.com">info@arterys.com</a> <br/><a href="tel:+15873159008">+1 (587) 315-9008</a></p>
-																																																																																																																																																																																									                  <p>639 - 5th Avenue SW <br/> Calgary, AB <br/>T2P 0M9, Canada</p>
-																																																																																																																																																																																											              </div>
-																																																																																																																																																																																												                </div>
-																																																																																																																																																																																														          <div class="contact-box" id="france">
-																																																																																																																																																																																															              <img src="/static/images/v2/Contact_France.jpg" />
-																																																																																																																																																																																																                  <div class="contact-content">
-																																																																																																																																																																																																		                <h1>France</h1>
-																																																																																																																																																																																																				              <hr class="mini light">
-																																																																																																																																																																																																					                    <p><a href="mailto:info@arterys.com">info@arterys.com</a> <br/><a href="tel:+330184884626">+33 01 84 88 46 26</a></p>
-																																																																																																																																																																																																							                  <p>34 av. des Champs-Elysées <br/> 75008 Paris <br/>France</p>
-																																																																																																																																																																																																									              </div>
-																																																																																																																																																																																																										                </div>
-																																																																																																																																																																																																												        </div>
-																																																																																																																																																																																																													      </div>
-																																																																																																																																																																																																													          </div>
+    <div class="uk-width-medium-3-4">
+    
+        <ul class="uk-pagination">
+        
+            <li class="uk-disabled"><span><i class="uk-icon-angle-double-left"></i></span></li>
+        
+            <li class="uk-active"><span>1</span></li>
+        
+            <li class="uk-disabled"><span><i class="uk-icon-angle-double-right"></i></span></li>
+        
+        </ul>
+    </div>
 
-																																																																																																																																																																																																														      </div>
-																																																																																																																																																																																																														      <div class='footer'>
-																																																																																																																																																																																																														        <span class='right'>&copy; 2017 Arterys&#8482;</span>
-																																																																																																																																																																																																															  <span class='center'><a class="arty-footer" href="/"><?xml version="1.0" encoding="utf-8"?>
-																																																																																																																																																																																																															  <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-																																																																																																																																																																																																															  <svg fill="#ffffff" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-																																																																																																																																																																																																															  	 viewBox="-452 265 54 32" style="enable-background:new -452 265 54 32;" xml:space="preserve">
-																																																																																																																																																																																																																 <path d="M-398.7,269.7L-398.7,269.7L-398.7,269.7c-3-3-7-4.7-11.3-4.7s-8.3,1.7-11.3,4.7c-0.1,0.1-2.9,3-13.2,13.9
-																																																																																																																																																																																																																 	c-3.7,3.9-6.8,7.2-6.9,7.3c-1.1,1.1-2.6,1.8-4.2,1.8s-3.1-0.6-4.2-1.8l-1.4,1.4l0,0c0.1,0.1,0.3,0.2,0.4,0.4l0,0
-																																																																																																																																																																																																																		c2.9,2.8,6.7,4.3,10.8,4.3c4.3,0,8.3-1.7,11.3-4.7c0.1-0.1,2.8-3,12.9-13.6c3.9-4.1,7.1-7.5,7.2-7.6c1.1-1.1,2.6-1.8,4.2-1.8
-																																																																																																																																																																																																																			c1.4,0,2.7,0.5,3.8,1.3c0.2,0.1,0.3,0.3,0.5,0.4l0,0l0,0l0,0l0.7-0.7L-398.7,269.7L-398.7,269.7z M-440,292.3c0,0,0.3-0.3,7-7.3
-																																																																																																																																																																																																																				c5.5-5.8,13-13.7,13.1-13.9c2.2-2.2,5-3.6,8.1-4c-1.4,0.6-2.7,1.4-3.8,2.6c0,0-1.6,1.7-9.5,10c-5.1,5.4-10.5,11-10.6,11.2
-																																																																																																																																																																																																																					c-1.7,1.7-3.9,2.7-6.3,2.9C-441.3,293.4-440.6,292.9-440,292.3z M-410,269.7c0,0-0.3,0.3-7.3,7.7c-5.7,6-12.7,13.4-12.8,13.6
-																																																																																																																																																																																																																						c-2.2,2.2-5,3.6-8,4c1.4-0.6,2.7-1.5,3.8-2.6c0,0,1.9-2,10.6-11.2c4.8-5,9.4-9.9,9.5-10c1.7-1.7,4-2.7,6.3-2.9
-																																																																																																																																																																																																																							C-408.7,268.6-409.4,269.1-410,269.7z"/>
-																																																																																																																																																																																																																							</svg></a></span>
-																																																																																																																																																																																																																							  <span class='left'><a class=" " href="/tos">Terms &amp; legal</a></span>
-																																																																																																																																																																																																																							  </div>
+    <div class="uk-width-medium-1-4">
+        <div class="uk-panel uk-panel-header">
+            <h3 class="uk-panel-title">友情链接</h3>
+            <ul class="uk-list uk-list-line">
+                <li><i class="uk-icon-thumbs-o-up"></i> <a target="_blank" href="http://www.liaoxuefeng.com/category/0013738748415562fee26e070fa4664ad926c8e30146c67000">编程</a></li>
+                <li><i class="uk-icon-thumbs-o-up"></i> <a target="_blank" href="http://www.liaoxuefeng.com/category/0013738748248885ddf38d8cd1b4803aa74bcda32f853fd000">读书</a></li>
+                <li><i class="uk-icon-thumbs-o-up"></i> <a target="_blank" href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000">Python教程</a></li>
+                <li><i class="uk-icon-thumbs-o-up"></i> <a target="_blank" href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">Git教程</a></li>
+            </ul>
+        </div>
+    </div>
 
-																																																																																																																																																																																																																							  <div id="modal">
-																																																																																																																																																																																																																							  </div>
-																																																																																																																																																																																																																							  <div id="modal-content">
-																																																																																																																																																																																																																							  </div>
-																																																																																																																																																																																																																							      <script>
-																																																																																																																																																																																																																							        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-																																																																																																																																																																																																																								  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-																																																																																																																																																																																																																								    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-																																																																																																																																																																																																																								      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-																																																																																																																																																																																																																								        ga('create', 'UA-59412742-1', 'auto');
-																																																																																																																																																																																																																									 ga('send', 'pageview');
-																																																																																																																																																																																																																									  
-																																																																																																																																																																																																																									  </script>
-																																																																																																																																																																																																																									    </body>
-																																																																																																																																																																																																																									    </html>
+            <!-- // content -->
+        </div>
+    </div>
+    <!--
+    <div class="uk-margin-large-top" style="background-color:#eee; border-top:1px solid #ccc;">
+        <div class="uk-container uk-container-center uk-text-center">
+            <div class="uk-panel uk-margin-top uk-margin-bottom">
+                <p>
+                    <a target="_blank" href="http://weibo.com/liaoxuefeng" class="uk-icon-button uk-icon-weibo"></a>
+                    <a target="_blank" href="https://github.com/michaelliao" class="uk-icon-button uk-icon-github"></a>
+                    <a target="_blank" href="http://www.linkedin.com/in/liaoxuefeng" class="uk-icon-button uk-icon-linkedin-square"></a>
+                    <a target="_blank" href="https://twitter.com/liaoxuefeng" class="uk-icon-button uk-icon-twitter"></a>
+                </p>
+                <p>Powered by <a href="http://awesome.liaoxuefeng.com">Awesome Python Webapp</a>. Copyright &copy; 2014. [<a href="/manage/" target="_blank">Manage</a>]</p>
+                <p><a href="http://www.liaoxuefeng.com/" target="_blank">www.liaoxuefeng.com</a>. All rights reserved.</p>
+                <a target="_blank" href="http://www.w3.org/TR/html5/"><i class="uk-icon-html5" style="font-size:64px; color: #444;"></i></a>
+            </div>
+        </div>
+    </div>-->
+
+<div class="uk-block uk-block-secondary uk-contrast">
+
+                                <div class="uk-container">
+
+                                    <div class="uk-grid uk-grid-match" data-uk-grid-margin>
+                                        <div class="uk-width-medium-1-3">
+                                            <div class="uk-panel">
+                                                <h3>Text</h3>
+                                                <p>Lorem ipsum <a href="#">dolor sit</a> amet, consectetur adipisicing elit.</p>
+
+                                                <h3>Form</h3>
+                                                <form class="uk-form">
+                                                    <div class="uk-form-row">
+                                                        <input type="text" placeholder=":focus">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-medium-1-3">
+                                            <div class="uk-panel">
+                                                <h3>Button</h3>
+                                                <p><button class="uk-button">Button</button> <button class="uk-button uk-button-primary">Button</button></p>
+
+                                                <h3>Icon</h3>
+                                                <p>
+                                                    <a href="#" class="uk-icon-hover uk-icon-medium uk-icon-github"></a>
+                                                    <a href="#" class="uk-icon-hover uk-icon-medium uk-icon-twitter"></a>
+                                                    <a href="#" class="uk-icon-button uk-icon-dribbble"></a>
+                                                    <a href="#" class="uk-icon-button uk-icon-html5"></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-medium-1-3">
+                                            <div class="uk-panel">
+                                                <h3>Subnav</h3>
+                                                <ul class="uk-subnav uk-subnav-pill">
+                                                    <li class="uk-active"><a href="#">Active</a></li>
+                                                    <li><a href="#">Item</a></li>
+                                                    <li class="uk-disabled"><a href="#">Disabled</a></li>
+                                                </ul>
+
+                                                <ul class="uk-nav uk-nav-side">
+                                                    <li class="uk-nav-header">Nav Side</li>
+                                                    <li class="uk-nav-divider"></li>
+                                                    <li class="uk-active"><a href="#">Active</a></li>
+                                                    <li><a href="#">Item</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                </div>
+
+    <footer class="uk-block uk-block-default uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-fade">
+        <div class="uk-container uk-container-center">
+            <div data-uk-grid-margin="" class="uk-grid">
+                <div class="uk-width-medium-5-10 uk-row-first">
+                    <h3 class="uk-text-center-small">Transcademy</h3>
+                    <p class="uk-text-center-small">
+                        At transcademy, we want to bridge the gaps in learning by creating an enabling platform, where the three major stakeholders
+                        in a child's learning process can interact, and exchange data. We believe this will help the parent,
+                        teacher and the school make better decisions on the child.
+                    </p>
+                </div>
+                <div class="uk-width-medium-2-10">
+                    <h3 class="uk-text-center-small">Pages</h3>
+                    <ul class="uk-list uk-text-center-small">
+                        <li class="uk-margin-small-bottom"><a href="#">About</a></li>
+                        <li class="uk-margin-small-bottom"><a href="#">Blog</a></li>
+                        <li class="uk-margin-small-bottom"><a href="#">Survey</a></li>
+                        <li class="uk-margin-small-bottom"><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="uk-width-medium-3-10">
+                    <h3 class="uk-text-center-small">Social</h3>
+                    <ul class="uk-list uk-text-center-small">
+                        <li>04 Mann Extensions Apt. 434, Lagos, Nigeria.</li>
+                        <li>
+                            <ul class="uk-flex-inline uk-padding-remove t-tel">
+                                <li class="uk-margin-right"><a href="tel:+2348136957196">+234 813 6957196</a></li>
+                                <li class="uk-margin-right"><a href="tel:+2348067147306">+234 806 7147306</a></li>
+                            </ul>
+                            <div class="uk-grid uk-grid-match">
+                                <div class="uk-width-1-1"></div>
+                            </div>
+                        </li>
+                        <li class="t-mail"><a href="mailto:info@transcademy.com">info@transcademy.com</a></li>
+                        <li>
+                            <ul class="uk-flex-inline uk-padding-remove t-social">
+                                <li><a href="http://www.twitter.com/transcademy"><i class="t-icon-twitter"></i></a></li>
+                                <li><a href="http://www.facebook.com/transcademy"><i class="t-icon-facebook"></i></a></li>
+                                <li>
+                                    <a href="http://www.google.com/+transcademy01"><i class="t-icon-google-plus"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="uk-grid-divider">
+            <div data-uk-grid-margin="" class="uk-grid">
+                <div class="uk-width-1-2 uk-text-center-small uk-width-medium-1-2 uk-row-first">
+                    Copyright © 2016 Transcademy.All rights reserved.
+                </div>
+                <div class="uk-width-1-2 uk-text-center-small uk-width-medium-1-2">
+                    <ul class="uk-list">
+                        <li class="uk-text-right uk-text-center-small">
+                            <a href="#" class="uk-margin-right">
+                            Privacy Policy
+                        </a>
+                            <a href="#" class="uk-margin-right">Terms of Use</a>
+                            <a href="#">Site Map</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
