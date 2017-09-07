@@ -1326,7 +1326,6 @@ a {
 }
 
 .service-uk-panel-box {
-  padding: 20px;
   background: #ffffff;
   color: #88898e;
 }
@@ -1495,11 +1494,6 @@ a {
 }
 .uk-panel-box .uk-nav-side {
   margin: 0;
-}
-@media (min-width: 768px) {
-  .uk-panel-box {
-    padding: 40px;
-  }
 }
 /* ========================================================================
    Component: Block
