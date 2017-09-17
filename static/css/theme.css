@@ -1326,8 +1326,19 @@ a {
 }
 
 .service-uk-panel-box {
+  padding: 20px;
   background: #ffffff;
-  color: #88898e;
+  border-radius: 10px;
+}
+
+.service-uk-panel-box > .uk-panel-teaser {
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.service-uk-panel-box .uk-panel-title {
+  color: #000000;
 }
 
 .uk-panel-box .uk-panel-box {
