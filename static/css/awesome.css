@@ -289,7 +289,7 @@ section[class*='t-'] {
           width: auto; } }
 
 footer {
-  color: rgba(42, 42, 42, 0.6) !important; }
+  color: rgba(1, 1, 1, 0.9) !important; }
   footer.t-dark {
     background: #202020 !important; }
     footer.t-dark * {
@@ -307,6 +307,7 @@ footer {
     padding-bottom: 30px !important;
     padding-top: 60px !important; }
   footer h3 {
+    color: rgba(1, 1, 1, 0.9);
     font-weight: 400 !important;
     font-size: 16px !important; }
   footer p, footer ul.uk-list > li > a, footer ul.uk-list > li *, footer ul.uk-list > *, footer .t-copyright {
@@ -314,7 +315,7 @@ footer {
   footer .t-tel, footer .t-mail {
     margin-top: 5px; }
   footer a {
-    color: rgba(42, 42, 42, 0.6);
+    color: rgba(1, 1, 1, 0.9);
     -webkit-transition: color .3s;
             transition: color .3s; }
     footer a:hover, footer a:focus, footer a:active {
