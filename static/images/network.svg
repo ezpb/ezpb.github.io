@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>network</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-765.000000, -2894.000000)">
+            <g id="schools" transform="translate(136.000000, 2435.000000)">
+                <g id="text" transform="translate(628.000000, 50.000000)">
+                    <g id="features" transform="translate(1.000000, 205.000000)">
+                        <g id="f5" transform="translate(0.000000, 204.000000)">
+                            <g id="network">
+                                <circle id="Oval" fill="#9A7A55" cx="21" cy="21" r="21"></circle>
+                                <path d="M41.9973522,20.663095 C41.9991152,20.7751857 42,20.8874895 42,21 C42,32.5979797 32.5979797,42 21,42 C19.6588765,42 18.3471157,41.874283 17.0758596,41.6339908 L10.1498848,32.8356114 L19.0703283,23.4250997 L12.1695326,15.036744 L17.4954392,10.8132683 L23.5868059,19.1103634 L22.7955385,17.110926 L24.3216578,18.1377863 L33.7748943,9.56166398 L41.9973522,20.663095 Z" id="Combined-Shape" fill-opacity="0.27771173" fill="#000000"></path>
+                                <g id="Capa_1" transform="translate(8.000000, 8.000000)">
+                                    <rect id="Rectangle-path" fill="#FFFFFF" x="13.7358491" y="14.2075472" width="0.943396226" height="8.49056604"></rect>
+                                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(19.180465, 7.387585) rotate(45.000000) translate(-19.180465, -7.387585) " x="18.6804654" y="2.38456668" width="0.943387179" height="10.0060361"></rect>
+                                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(8.567233, 18.000959) rotate(45.000000) translate(-8.567233, -18.000959) " x="8.06723264" y="11.3302683" width="0.943387179" height="13.3413815"></rect>
+                                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(9.706399, 7.859544) rotate(45.000000) translate(-9.706399, -7.859544) " x="6.0375667" y="7.35954396" width="7.33766548" height="0.943387179"></rect>
+                                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(18.668497, 16.821500) rotate(45.000000) translate(-18.668497, -16.821500) " x="13.6654788" y="16.3214998" width="10.0060361" height="0.943387179"></rect>
+                                    <ellipse id="Oval" fill="#43B05C" cx="23.6415094" cy="3.35849057" rx="2.85849057" ry="2.85849057"></ellipse>
+                                    <ellipse id="Oval" fill="#7383BF" cx="14.2075472" cy="23.6415094" rx="3" ry="3"></ellipse>
+                                    <ellipse id="Oval" fill="#57D8AB" cx="3.35849057" cy="22.6981132" rx="2.52830189" ry="2.52830189"></ellipse>
+                                    <ellipse id="Oval" fill="#D75A4A" cx="6.66037736" cy="4.77358491" rx="3.43396226" ry="3.43396226"></ellipse>
+                                    <circle id="Oval" fill="#EBBA16" cx="21.754717" cy="19.8679245" r="2.14150943"></circle>
+                                    <circle id="Oval" fill="#4B6DAA" cx="14.2075472" cy="12.3207547" r="3.30188679"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

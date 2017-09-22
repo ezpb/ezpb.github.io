@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>pie-chart (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-765.000000, -2794.000000)">
+            <g id="schools" transform="translate(136.000000, 2435.000000)">
+                <g id="text" transform="translate(628.000000, 50.000000)">
+                    <g id="features" transform="translate(1.000000, 205.000000)">
+                        <g id="f3" transform="translate(0.000000, 104.000000)">
+                            <g id="pie-chart-(1)">
+                                <g id="Layer_1">
+                                    <circle id="Oval" fill="#366695" cx="21" cy="21" r="21"></circle>
+                                    <path d="M26.8133906,15.1467422 L21,9.33335156 L12.7615195,29.2516875 L24.9817148,41.6214258 C34.6753477,39.7607109 42,31.2364336 42,21 C42,20.9281406 41.9980313,20.8567734 41.997293,20.7850781 L31.686375,10.5199336 L26.8133906,15.1467422 L26.8133906,15.1467422 Z" id="Shape" fill="#25405A"></path>
+                                    <path d="M21,21 L21,9.33335156 C14.5567734,9.33335156 9.33335156,14.5566094 9.33335156,21 C9.33335156,27.4432266 14.5567734,32.6666484 21,32.6666484 C23.3744766,32.6666484 25.5821016,31.9554375 27.4248516,30.7370273 L21,21 L21,21 Z" id="Shape" fill="#FFC91B"></path>
+                                    <path d="M21,21 L21,9.33335156 C14.5567734,9.33335156 9.33335156,14.5566094 9.33335156,21 C9.33335156,27.4432266 14.5567734,32.6666484 21,32.6666484 L21,21 L21,21 Z" id="Shape" fill="#FFD05A"></path>
+                                    <path d="M32.6666484,21 L21,21 L27.4248516,30.7371094 C30.5824805,28.64925 32.6666484,25.06875 32.6666484,21 L32.6666484,21 Z" id="Shape" fill="#FFEDB5"></path>
+                                    <path d="M35.0000273,18.6667031 C35.0000273,12.2234766 29.7766055,7.00005469 23.3333789,7.00005469 L23.3333789,18.6667031 L35.0000273,18.6667031 L35.0000273,18.6667031 Z" id="Shape" fill="#FF5419"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
