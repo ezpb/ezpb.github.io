@@ -1328,7 +1328,7 @@ a {
 .service-uk-panel-box {
   padding: 20px;
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .service-uk-panel-box > .uk-panel-teaser {
